@@ -1,0 +1,110 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+#search input[type="text"] {
+    background: rgba(10,10,10,0.5);
+    border: 0 none;
+    font: bold 12px Arial,Helvetica,Sans-serif;
+    color: #777;
+    width: 300px;
+    padding-left: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+
+#search input[type="text"]:focus {
+    width: 370px;
+    }
+
+.navbar-inner{
+
+	padding-top: 10px;
+    height:50px;
+
+
+}
+.coverarea{
+	height: 250px;
+	background-image:url("../img/bga.png");
+    margin-bottom: 0px;
+	z-index: 140;
+	width: 100%;
+}
+
+
+.card{
+        margin-bottom: 30px;
+        height:250px;
+        }
+.titletext {
+        padding: 20px 0 50px 30px;
+        color:white;
+        
+        }
+
+
+.navbar-fixed-top .navbar-inner{
+    padding-left: 40px;
+}
+
+
+#pad-wrapper{
+    padding-top: 40px;
+}
+
+.card h1, h2, h3, h4, h5 {
+    margin-top:15px;
+}
+
+.card p {
+    margin-top:10px;
+}
+
+.card a:hover{
+    list-style: none;
+}
+
+h4,h5{line-height:1.5}
+h1,h2,h3{line-height:1.2;}
+
+.videopage{
+margin-top: 50px;
+}
+
+iframe{
+    width:100%;
+    height: 500px;
+}
+
+.notepage{
+    height:500px;
+}
+
+#dashboard-menu .pointer {
+    position: absolute;
+    right: 29px;
+    top: 16px;
+}
+
+#sidebar-nav {
+    position: absolute;
+    width: 200px;
+    float: left;
+    margin: 0em;
+    padding-top: 5.8em; 
+	background:#F7F7F7;
+}
